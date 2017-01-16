@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "description": "BLL.Implementation Class Library",
+  "authors": [ "Roman AccessSoftek" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+    "frameworks": {
+        "net451": {
+            "dependencies": {
+                "AutoMapper": "5.2.0"
+            }
+        },
+        "dotnet5.4": {
+            "dependencies": {
+                "Microsoft.CSharp": "4.0.1-beta-23516",
+                "System.Collections": "4.0.11-beta-23516",
+                "System.Linq": "4.0.1-beta-23516",
+                "System.Runtime": "4.0.21-beta-23516",
+                "System.Threading": "4.0.11-beta-23516"
+            }
+        }
+    },
+    "dependencies": {
+        "BLL.Abstraction": "1.0.0-*",
+        "EntityFramework": "6.1.0"
+    }
+}

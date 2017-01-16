@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0-*",
+  "description": "DAL.DataAccessLayer Class Library",
+  "authors": [ "Roman AccessSoftek" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+    "frameworks": {
+        "net451": {
+            "dependencies": {
+                "Microsoft.AspNet.Identity.EntityFramework": "2.2.1",
+                "Microsoft.CSharp": "4.3.0",
+                "System.Collections": "4.3.0",
+                "System.Data.Common": "4.3.0",
+                "System.Linq": "4.3.0",
+                "System.Runtime": "4.3.0",
+                "System.Threading": "4.3.0"
+            },
+            "frameworkAssemblies": {
+                "System.Data.Entity": "4.0.0.0"
+            }
+        },
+        "dotnet5.4": {
+            "dependencies": {
+            }
+        }
+    },
+    "dependencies": {
+        "DAL.Models": "1.0.0-*",
+        "EntityFramework": "6.1.3"
+    }
+}
