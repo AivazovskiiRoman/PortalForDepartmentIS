@@ -4,6 +4,7 @@ using System.Web.Routing;
 using Castle.Windsor;
 using Castle.Windsor.Installer;
 using PortalForDepartmentIS.Infrastructure;
+using AutoMapperConfig = BLL.Implementation.AutoMapperConfig;
 
 namespace PortalForDepartmentIS
 {
@@ -19,6 +20,7 @@ namespace PortalForDepartmentIS
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             BootstrapContainer();
+            AutoMapperConfig.Initialize();
         }
 
         private static void BootstrapContainer()

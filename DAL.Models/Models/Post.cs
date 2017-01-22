@@ -4,10 +4,14 @@ using System.Collections.Generic;
 namespace DAL.Models
 {
     /// <summary>
-    /// Модель объявление
+    /// Модель объявления
     /// </summary>
     public class Post : BaseModel<long?>
     {
+        /// <summary>
+        /// ID объявления
+        /// </summary>
+        public int Id { get; set; }
         /// <summary>
         /// Название объявления
         /// </summary>

@@ -54,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoMapperConfig.cs" />
-    <Compile Include="PostService.cs" />
+    <Compile Include="PostManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,17 +62,21 @@
       <Project>{873E20B2-A797-4589-8B32-3B07287EE4D7}</Project>
       <Name>BLL.Abstraction</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BLL.DTO\BLL.DTO.csproj">
+    <ProjectReference Include="..\BLL.DTO\BLL.Objects.csproj">
       <Project>{8104D957-A791-4E4D-9674-816E5CD6A285}</Project>
-      <Name>BLL.DTO</Name>
+      <Name>BLL.Objects</Name>
     </ProjectReference>
     <ProjectReference Include="..\DAL.DataAccessLayer\DAL.DataAccessLayer.csproj">
       <Project>{2BA97A63-CAA9-40AA-91F6-AF0AF02E8FCA}</Project>
       <Name>DAL.DataAccessLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DAL.Models\DAL.Models.csproj">
+    <ProjectReference Include="..\DAL.Models\DAL.Objects.csproj">
       <Project>{0194EC2D-E72F-4A6E-A48E-72D709869D18}</Project>
-      <Name>DAL.Models</Name>
+      <Name>DAL.Objects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Extensions\Extensions.csproj">
+      <Project>{6C6899BC-C66D-4AB7-BA32-657FD04DC2BE}</Project>
+      <Name>Extensions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

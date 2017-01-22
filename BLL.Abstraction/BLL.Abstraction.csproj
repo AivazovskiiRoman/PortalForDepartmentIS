@@ -40,13 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IPostService.cs" />
+    <Compile Include="IPostManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BLL.DTO\BLL.DTO.csproj">
+    <ProjectReference Include="..\BLL.DTO\BLL.Objects.csproj">
       <Project>{8104D957-A791-4E4D-9674-816E5CD6A285}</Project>
-      <Name>BLL.DTO</Name>
+      <Name>BLL.Objects</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -6,6 +6,10 @@ namespace BLL.DTO
     public class PostDto : BaseDto<long?>
     {
         /// <summary>
+        /// ID объявления
+        /// </summary>
+        public int Id { get; set; }
+        /// <summary>
         /// Название объявления
         /// </summary>
         public string Title { get; set; }

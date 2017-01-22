@@ -59,9 +59,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAL.Models\DAL.Models.csproj">
+    <ProjectReference Include="..\DAL.Models\DAL.Objects.csproj">
       <Project>{0194EC2D-E72F-4A6E-A48E-72D709869D18}</Project>
-      <Name>DAL.Models</Name>
+      <Name>DAL.Objects</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
